@@ -23,3 +23,14 @@ Install bundler and Jekyll
 ```sh
 gem install bundler jekyll
 ```
+
+To ensure that all packages are installed before running the server:
+
+```
+bundle install
+```
+To ru ther server:
+
+```
+bundle exec jekyl serv
+```
