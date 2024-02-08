@@ -6,12 +6,27 @@ description: List of the most recent posts
 
 <div class="container">
     {% for post in site.posts %}
-        <div>
+        <article class="post-preview">
             <a href="{{ post.url }}">
-                <h2>{{ post.title }}</h2>
+                <h2 class="post-title">{{ post.title }}</h2>
+                <h3 class="post-subtitle">{{ post.excerpt }}</h3>
             </a>
+            <p class="post-meta">
+                {% if post.date %}
+                    Posted
+                    {% if post.author %}
+                        by {{ post.author }}
+                    {% endif %}
+                    on {{ post.date | date:"%B %d, %Y" }} ·
+                {% endif %}
+                <span class="reading-time" title="Estimated reading time">
+                    {% assign words = post.content | number_of_words %}
+                    {{ words | divided_by:180 | at_least:1 }} min read
+                </span>
+            </p>
+        </article>
+        <div>
             <hr>
-            <p>{{ post.excerpt }}</p>
         </div>
     {% endfor %}
 </div>
