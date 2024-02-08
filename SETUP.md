@@ -2,7 +2,7 @@
 
 ## Install ruby
 
-Check your version of ruby:
+Check your version of Ruby:
 
 ```sh
 ruby -v
@@ -24,13 +24,14 @@ Install bundler and Jekyll
 gem install bundler jekyll
 ```
 
-To ensure that all packages are installed before running the server:
+Ensure that all packages are installed before running the server:
 
-```
+```sh
 bundle install
 ```
-To ru ther server:
 
-```
-bundle exec jekyl serv
+Run the server:
+
+```sh
+bundle exec jekyll serve
 ```
