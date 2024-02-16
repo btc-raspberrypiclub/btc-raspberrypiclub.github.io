@@ -32,6 +32,10 @@ github_username: btc-raspberrypiclub
 discord_invite: https://discord.gg/PHzD7p9Xsu # invite to the discord server
 google_calendar_embed_url: "https://calendar.google.com/calendar/embed?src=e59335ef671b511763b79db213d0aabfe8f39e13f5238b9ff55e6b3515b3cbab%40group.calendar.google.com&ctz=America%2FLos_Angeles"
 
+collections:
+  authors:
+    output: true
+
 # Default author
 author: Raspberry Pi Club
 

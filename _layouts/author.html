@@ -1,0 +1,72 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.email or page.twitter_username or page.facebook_username or page.linkedin_username or page.github_username or page.instagram_username %}
+<h3>Socials</h3>
+{% endif %}
+
+<div style="width: max-content; border-bottom: 0.25rem solid #212529">
+{% if page.email %}
+<li class="list-inline-item">
+    <a href="mailto:{{ page.email | encode_email }}">
+        <span class="fa-stack">
+            <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+            <i class="far fa-envelope fa-stack-1x"></i>
+        </span>
+    </a>
+</li>
+{% endif %}
+{% if page.twitter_username %}
+<li class="list-inline-item">
+    <a href="https://twitter.com/{{ page.twitter_username }}">
+        <span class="fa-stack">
+            <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+            <i class="fab fa-twitter fa-stack-1x"></i>
+        </span>
+    </a>
+</li>
+{% endif %}
+{% if page.facebook_username %}
+<li class="list-inline-item">
+    <a href="https://www.facebook.com/{{ page.facebook_username }}">
+        <span class="fa-stack">
+            <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+            <i class="fab fa-facebook-f fa-stack-1x"></i>
+        </span>
+    </a>
+</li>
+{% endif %}
+{% if page.linkedin_username %}
+<li class="list-inline-item">
+    <a href="https://www.linkedin.com/in/{{ page.linkedin_username }}">
+        <span class="fa-stack">
+            <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+            <i class="fab fa-linkedin fa-stack-1x"></i>
+        </span>
+    </a>
+</li>
+{% endif %}
+{% if page.github_username %}
+<li class="list-inline-item">
+    <a href="https://github.com/{{ page.github_username }}">
+        <span class="fa-stack">
+            <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+            <i class="fab fa-github fa-stack-1x"></i>
+        </span>
+    </a>
+</li>
+{% endif %}
+{% if page.instagram_username %}
+<li class="list-inline-item">
+    <a href="https://instagram.com/{{ page.instagram_username }}">
+        <span class="fa-stack">
+            <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+            <i class="fab fa-instagram fa-stack-1x"></i>
+        </span>
+    </a>
+</li>
+{% endif %}
+</div>
