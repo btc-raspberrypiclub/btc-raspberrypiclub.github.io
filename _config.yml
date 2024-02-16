@@ -35,6 +35,9 @@ google_calendar_embed_url: "https://calendar.google.com/calendar/embed?src=e5933
 collections:
   authors:
     output: true
+    sort_by: name
+    order:
+      - garth-johnson.md
 
 # Default author
 author: Raspberry Pi Club

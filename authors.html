@@ -1,12 +1,24 @@
 ---
+title: Authors
 layout: page
 ---
 
+<p>These are all the members of the club</p>
 <h1>Authors</h1>
-<ul>
-{% for author in site.authors %}
-    <li>
-        <a href="{{ author.url }}">{{ author.name }}</a>
+<ul class="list-group">
+    {% for author in site.authors %}
+    <li class="list-group-item">
+        <a href="{{ author.url }}">
+            <img class="rounded"
+                style="height: 3em;"
+                {% if author.photo %}
+                    src="{{ author.photo }}"
+                {% else %}
+                    src="/assets/images/default-author-photo.png"
+                {% endif %}
+                alt="Photo of {{ author.name }}">
+            {{ author.name }}
+        </a>
     </li>
-{% endfor %}
+    {% endfor %}
 </ul>

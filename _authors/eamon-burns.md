@@ -1,12 +1,13 @@
 ---
-name: Eamon Burns
 layout: author
-email: test
-twitter_username: test
-facebook_username: test
-linkedin_username: test
+name: Eamon Burns
+photo: /assets/images/eamon-burns-author.jpg
+email:
+twitter_username:
+facebook_username:
+linkedin_username:
 github_username: agent-e11
-instagram_username: test
+instagram_username:
 ---
 
 Eamon is a student at BTC in the Computer Networking program.
