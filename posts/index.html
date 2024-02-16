@@ -17,16 +17,11 @@ description: List of the most recent posts
                     {% if post.author %}
                         by {{ post.author }}
                     {% endif %}
-                    on {{ post.date | date:"%B %d, %Y" }} ·
+                    on {{ post.date | date:"%B %d, %Y" }} &middot;
                 {% endif %}
-                <span class="reading-time" title="Estimated reading time">
-                    {% assign words = post.content | number_of_words %}
-                    {{ words | divided_by:180 | at_least:1 }} min read
-                </span>
+                {% include read_time.html content=post.content %}
             </p>
         </article>
-        <div>
-            <hr>
-        </div>
+        <hr>
     {% endfor %}
 </div>
