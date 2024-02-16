@@ -2,13 +2,21 @@
 layout: page
 ---
 
+<img class="w-25 rounded"
+    {% if page.photo %}
+        src="{{ page.photo }}"
+    {% else %}
+        src="/assets/images/default-author-photo.png"
+    {% endif %}
+    alt="Photo of {{ page.name }}">
+
 {{ content }}
 
 {% if page.email or page.twitter_username or page.facebook_username or page.linkedin_username or page.github_username or page.instagram_username %}
 <h3>Socials</h3>
 {% endif %}
 
-<div style="width: max-content; border-bottom: 0.25rem solid #212529">
+<div style="width: max-content; max-width: 100%; border-bottom: 0.25rem solid #212529">
 {% if page.email %}
 <li class="list-inline-item">
     <a href="mailto:{{ page.email | encode_email }}">
