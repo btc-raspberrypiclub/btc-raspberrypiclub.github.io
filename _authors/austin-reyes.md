@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Austin Reyes
-photo: /assets/images/
+photo: /assets/images/FairHavenParkProfile.jpg
 email:
 twitter_username:
 facebook_username:
