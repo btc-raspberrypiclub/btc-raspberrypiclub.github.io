@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Austin Reyes
-photo: /assets/images/eamon-burns-author.jpg
+photo: /assets/images/
 email:
 twitter_username:
 facebook_username:
