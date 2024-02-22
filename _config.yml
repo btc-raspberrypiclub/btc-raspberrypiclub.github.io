@@ -37,6 +37,8 @@ collections:
     sort_by: name
     order:
       - garth-johnson.md
+  projects:
+    output: true
 
 # Default author
 author: Raspberry Pi Club
