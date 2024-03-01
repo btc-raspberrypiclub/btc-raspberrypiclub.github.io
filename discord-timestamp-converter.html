@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/css/discord-time-converter.css">
+    <script src="/assets/js/discord-time-converter.js" defer></script>
     <title>Discord Timestamp Converter</title>
 </head>
 <body>
-    <input type="datetime-local" name="time" id="time-input">
-    <button onclick="convertTimestamp()">Convert time</button>
-    <p id="output"></p>
-    <script src="/assets/js/discord-time-converter.js"></script>
+    <div class="container mt-5">
+        <input type="datetime-local" name="time" id="time-input">
+        <button onclick="convertTimestamp()">Convert time</button>
+        <p id="output" class="discord-timestamp" onclick="copyTimestamp(this)"></p>
+    </div>
 </body>
 </html>

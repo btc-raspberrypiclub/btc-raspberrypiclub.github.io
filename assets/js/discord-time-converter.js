@@ -13,6 +13,20 @@ function escapeHTML(str) {
 }
 
 /**
+ * Unescapes escaped HTML strings.
+ * @param {string} str 
+ * @returns {string}
+ */
+function unescapeHTML(str) {
+    return str
+        .replace(/&amp;/g, "&")
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&quot;/g, "\"")
+        .replace(/&#39;/g, "'");
+}
+
+/**
  * @returns {void}
  */
 function convertTimestamp() {
@@ -29,4 +43,20 @@ function convertTimestamp() {
     
     // Output Discord timestamp
     document.getElementById("output").innerHTML = escapeHTML("<t:" + timeNum.toString() + ":f>");
+}
+
+/**
+ * Copy the innerHTML of the given element into the user's clipboard
+ * @param {Element} element The element that contains the text to be copied
+ */
+async function copyTimestamp(element) {
+    let unescapedText = unescapeHTML(element.innerHTML);
+    console.log("Text: " + unescapedText);
+    
+    // This function might only work if the website has SSL
+    try {
+        await navigator.clipboard.writeText(unescapedText);
+    } catch (e) {
+        alert("Error copying to clipboard");
+    }
 }
