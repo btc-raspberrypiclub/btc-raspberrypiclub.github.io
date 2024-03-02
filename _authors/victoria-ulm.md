@@ -1,11 +1,11 @@
 ---
-layout: 
+layout: author
 name: Victoria Ulm
 photo:
-email: 
+email:
 twitter_username:
-facebook_username: 
-linkedin_username: 
-github_username: 
+facebook_username:
+linkedin_username:
+github_username:
 instagram_username:
 ---
