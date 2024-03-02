@@ -1,13 +1,13 @@
 ---
 layout: author
 name: Austin Reyes
-photo: /assets/images/FairHavenParkProfile_test.jpg
+photo: /assets/images/FairhavenParkProfile_test.jpg
 email: querty98002@yahoo.com
 twitter_username:
-facebook_username: Austin Reyes
-linkedin_username: Austin Reyes
+facebook_username: austin.reyes.5439
+linkedin_username: austin-reyes-5b1838175
 github_username: machoman29
 instagram_username:
 ---
 
-Austin is a student at BTC in the Computer Networking program.
+Austin is a student at BTC in the Computer Networking program. He is the current secretary of the club and slated to graduate in December 2024.
