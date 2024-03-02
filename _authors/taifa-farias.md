@@ -1,10 +1,10 @@
 ---
 layout: author
 name: Taifa Farias
-photo: /assets/images/kGif.gif
+photo: /assets/images/ 
 email: 
 twitter_username:
-facebook_username: tasya.farias
+facebook_username: 
 linkedin_username: taifa-farias-269133266
 github_username: vipersixx 
 instagram_username:
