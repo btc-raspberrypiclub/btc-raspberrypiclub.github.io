@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Taifa Farias
-photo: /assets/images/ 
+photo:
 email: 
 twitter_username:
 facebook_username: 

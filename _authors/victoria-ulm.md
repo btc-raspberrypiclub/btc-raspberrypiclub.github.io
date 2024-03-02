@@ -1,7 +1,7 @@
 ---
 layout: 
-name: 
-photo: /assets/images/
+name: Victoria Ulm
+photo:
 email: 
 twitter_username:
 facebook_username: 

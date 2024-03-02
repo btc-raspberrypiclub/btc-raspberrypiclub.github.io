@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Austin Reyes
-photo: /assets/images/FairhavenParkProfile_test.jpg
+photo: /assets/images/austin-reyes-author.jpg
 email: querty98002@yahoo.com
 twitter_username:
 facebook_username: austin.reyes.5439
