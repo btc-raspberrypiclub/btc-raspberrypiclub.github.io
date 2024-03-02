@@ -10,6 +10,9 @@ permalink: /about/
 
 ### About Us:
 
+[Google Website](https://www.google.com)
+
+
 The Raspberry Pi Club at Bellingham Technical College is a vibrant community of enthusiasts passionate about exploring the limitless possibilities of Raspberry Pi technology. Whether you're a seasoned Pi pro or just starting your journey into the world of single-board computing, our club is the perfect place to connect, learn, and collaborate with like-minded individuals.
 
 ### Mission:
