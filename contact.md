@@ -31,6 +31,6 @@ If you prefer, you can also use the contact form below to send us a message dire
 If you're on campus, feel free to drop by during one of our meetings or events! Check our calendar for upcoming dates, times, and locations.
 
 ## Stay Updated
-Don't forget to subscribe to our newsletter or follow us on social media to stay up-to-date with the latest news, events, and announcements from the Raspberry Pi Club.
+Don't forget to join our discord and follow us on social media to stay up-to-date with the latest news, events, and announcements from the Raspberry Pi Club.
 
 We look forward to hearing from you!

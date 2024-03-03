@@ -41,7 +41,7 @@ In addition to our technical activities, we also organize fun and engaging socia
 Whether you're a complete beginner eager to explore the world of Raspberry Pi or an experienced enthusiast looking to share your knowledge and expertise, everyone is welcome to join the Raspberry Pi Club at BTC! Join us in our journey of discovery, learning, and creativity with Raspberry Pi.
 
 ## Membership
-Membership in the Raspberry Pi Club is open to all BTC students interested in exploring the fascinating world of Raspberry Pi. To become a member, simply attend one of our meetings or events and sign up! There are no prerequisites or fees to join.
+Membership in the Raspberry Pi Club is open to all interested in exploring the fascinating world of Raspberry Pi. To become a member, simply attend two of our meetings or events and you will be official! There are no prerequisites or fees to join.
 
 ## Stay Updated
 Stay up-to-date with the latest news, events, and announcements from the Raspberry Pi Club by joining our discord or following us on social media.
