@@ -5,15 +5,25 @@ layout: page
 
 <p>Here is a list of all the projects we have done</p>
 {% for project in site.projects %}
-<a href="{{ project.url }}">
-    <img class="rounded"
-        style="height: 3em;"
-        {% if project.photo %}
-            src="{{ project.photo }}"
+<div class="mt-2">
+    <a href="{{ project.url }}">
+        <h2>{{ project.name }}</h2>
+        <p>
+        <img class="rounded"
+            style="height: 3em;"
+            align="right"
+            {% if project.photo %}
+                src="{{ project.photo }}"
+            {% else %}
+                src="/assets/images/default-project-photo.png"
+            {% endif %}
+            alt="Photo of {{ project.name }}">
+        {% if project.description %}
+            {{ project.description }}
         {% else %}
-            src="/assets/images/default-project-photo.png"
+            {{ project.exerpt }}
         {% endif %}
-        alt="Photo of {{ project.name }}">
-    {{ project.name }}
-</a>
+        </p>
+    </a>
+</div>
 {% endfor %}
