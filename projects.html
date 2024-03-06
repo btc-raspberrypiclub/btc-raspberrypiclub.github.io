@@ -5,25 +5,25 @@ layout: page
 
 <p>Here is a list of all the projects we have done</p>
 {% for project in site.projects %}
-<div class="mt-2">
+<hr>
+<div class="d-flex justify-content-between mt-3">
     <a href="{{ project.url }}">
         <h2>{{ project.name }}</h2>
         <p>
-        <img class="rounded"
-            style="height: 3em;"
-            align="right"
-            {% if project.photo %}
-                src="{{ project.photo }}"
+            {% if project.description %}
+                {{ project.description | markdownify }}
             {% else %}
-                src="/assets/images/default-project-photo.png"
+                {{ project.excerpt | markdownify }}
             {% endif %}
-            alt="Photo of {{ project.name }}">
-        {% if project.description %}
-            {{ project.description }}
-        {% else %}
-            {{ project.exerpt }}
-        {% endif %}
         </p>
     </a>
+    <img class="rounded ml-3 w-25"
+        align="right"
+        {% if project.photo %}
+            src="{{ project.photo }}"
+        {% else %}
+            src="/assets/images/default-project-photo.png"
+        {% endif %}
+        alt="Photo of {{ project.name }}">
 </div>
 {% endfor %}
