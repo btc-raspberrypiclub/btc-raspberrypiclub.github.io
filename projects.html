@@ -1,0 +1,29 @@
+---
+title: Projects
+layout: page
+---
+
+<p>Here is a list of all the projects we have done</p>
+{% for project in site.projects %}
+<hr>
+<div class="d-flex justify-content-between mt-3">
+    <a href="{{ project.url }}">
+        <h2>{{ project.name }}</h2>
+        <p>
+            {% if project.description %}
+                {{ project.description | markdownify }}
+            {% else %}
+                {{ project.excerpt | markdownify }}
+            {% endif %}
+        </p>
+    </a>
+    <img class="rounded ml-3 w-25"
+        align="right"
+        {% if project.photo %}
+            src="{{ project.photo }}"
+        {% else %}
+            src="/assets/images/default-project-photo.png"
+        {% endif %}
+        alt="Photo of {{ project.name }}">
+</div>
+{% endfor %}
