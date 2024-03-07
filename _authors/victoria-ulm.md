@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Victoria Ulm
-photo: /assets/images/toriprideshoulder.jpg
+photo: /assets/images/authors/toriprideshoulder.jpg
 email: victoriaa.allison08@gmail.com
 twitter_username:
 facebook_username:

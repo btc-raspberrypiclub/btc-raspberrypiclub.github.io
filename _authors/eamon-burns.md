@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Eamon Burns
-photo: /assets/images/eamon-burns-author.jpg
+photo: /assets/images/authors/eamon-burns-author.jpg
 email:
 twitter_username:
 facebook_username:
