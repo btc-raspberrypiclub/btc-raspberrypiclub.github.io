@@ -44,7 +44,7 @@ collections:
 author: Raspberry Pi Club
 
 # Build settings
-theme: jekyll-theme-clean-blog
+theme: jekyll-theme-cleaner-blog
 plugins:
   - jekyll-feed
 

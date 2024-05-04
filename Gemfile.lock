@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/btc-raspberrypiclub/cleaner-blog-jekyll
+  revision: d1e94c4176814e17edb055aa9708933307513a0e
+  specs:
+    jekyll-theme-cleaner-blog (0.0.0)
+      jekyll (>= 3.8.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,8 +44,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
-    jekyll-theme-clean-blog (4.0.12)
-      jekyll (>= 3.8.5)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -83,7 +88,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.12)
-  jekyll-theme-clean-blog
+  jekyll-theme-cleaner-blog!
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
