@@ -1,8 +1,9 @@
 GIT
   remote: https://github.com/btc-raspberrypiclub/cleaner-blog-jekyll
-  revision: d1e94c4176814e17edb055aa9708933307513a0e
+  revision: b98cb6209c82234d24da0e0adf59ca90611c4202
+  tag: v0.1.0
   specs:
-    jekyll-theme-cleaner-blog (0.0.0)
+    jekyll-theme-cleaner-blog (0.1.0)
       jekyll (>= 3.8.5)
 
 GEM
