@@ -7,9 +7,6 @@ categories: testing jekyll
 
 This is a test post. You should pay no mind to it (unless you are testing of course).
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-Nisi delectus quae, minus eum error a? Facere, qui laborum saepe accusantium,
-unde voluptatem pariatur est quaerat praesentium quis voluptates eaque.
-Voluptates.
+The Raspberry Pi Club Participated in the LinuxFest on 4/27 with the public showing of our Jeopardy Pi game project. Several of the members also participated as volunteers during the event.
 
 Hello world!!
