@@ -3,10 +3,10 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
+# Contact Us
+
 
 You can contact us on our official [Discord server]({{ site.discord_invite }}), or you can find us on [GitHub](https://github.com/btc-raspberrypiclub)
-
-# Contact Us
 
 ## Get in Touch
 Have questions, suggestions, or just want to get in touch with us? We'd love to hear from you! Feel free to reach out via email, social media, or using the contact form below.
