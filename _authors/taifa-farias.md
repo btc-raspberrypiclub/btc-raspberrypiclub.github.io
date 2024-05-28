@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Taifa Farias
-photo:
+photo: /assets/images/authors/taifa-farias-author.jpg
 email: 
 twitter_username:
 facebook_username: 
