@@ -1,7 +1,7 @@
 ---
 layout: author
-name: Jenny
-photo: /assets/images/authors/jenny-author.jpg
+name: Jenny Taylor
+photo: /assets/images/authors/jenny-taylor-author.jpg
 email: 
 twitter_username:
 facebook_username: 
