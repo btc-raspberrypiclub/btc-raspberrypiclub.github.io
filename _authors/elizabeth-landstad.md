@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Elizabeth Landstad
-photo: 
+photo: /assets/images/authors/elizabeth-landstad-author.jpg
 email: 
 twitter_username:
 facebook_username: 
