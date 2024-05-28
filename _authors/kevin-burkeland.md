@@ -1,7 +1,7 @@
 ---
 layout: author
 name: Kevin Burkeland
-photo: #/assets/images/authors/
+photo: /assets/images/authors/kevin-burkeland.jpeg
 email:
 twitter_username:
 facebook_username:
