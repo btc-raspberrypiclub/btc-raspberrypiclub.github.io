@@ -1,0 +1,13 @@
+---
+layout: author
+name: Elizabeth Landstad
+photo: /assets/images/authors/elizabeth-landstad-author.jpg
+email: 
+twitter_username:
+facebook_username: 
+linkedin_username: 
+github_username: 
+instagram_username:
+---
+
+Elizabeth is a student at BTC in the Computer Networking program. <pronoun> <linking-verb> <fact-about-self>.
