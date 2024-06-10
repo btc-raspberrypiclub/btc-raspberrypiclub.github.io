@@ -1,0 +1,10 @@
+services:
+
+  website:
+    build:
+      context: .
+    image: piweb:latest
+    ports:
+      - 4000:4000
+    volumes:
+      - ${PWD}:/app
