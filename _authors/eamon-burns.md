@@ -10,4 +10,4 @@ github_username: agent-e11
 instagram_username:
 ---
 
-Eamon is a student at BTC in the Computer Networking program.
+Eamon is an Alumni from BTC, he was the treasurer of the club for the 2023-24 year and the main student developer for this site and a general tech wiz.

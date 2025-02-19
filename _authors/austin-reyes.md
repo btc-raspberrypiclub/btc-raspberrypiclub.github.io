@@ -10,4 +10,4 @@ github_username: machoman29
 instagram_username:
 ---
 
-Austin is a student at BTC in the Computer Networking program. He is the current secretary of the club and slated to graduate in December 2024.
+Austin is an Alumni from BTC, he graduated with his Computer Networking associates in December 2024. He was secretary of the club and still actively attends weekly meetings to help out those looking to learn more about networking and technology.
