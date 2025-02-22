@@ -10,4 +10,4 @@ github_username: VirtualVictoriaa
 instagram_username: victoria.ulm
 ---
 
-Tori is a student at BTC in the Computer Networking program. She is the current President of the club and slated to graduate in June 2025.
+Tori is a student at BTC in the Computer Networking program. She was the President of the club from 2023-2024 and a very integral person to have in the club at the time. She made sure that the club was staying on target for their goals and also helped with the creation of this website.

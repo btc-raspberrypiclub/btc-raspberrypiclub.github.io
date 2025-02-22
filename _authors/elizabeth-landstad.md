@@ -10,4 +10,4 @@ github_username:
 instagram_username:
 ---
 
-Elizabeth is a student at BTC in the Computer Networking program. <pronoun> <linking-verb> <fact-about-self>.
+Elizabeth is a student at BTC in the Computer Networking program. She is very knowledgable about self-hosting concepts and was a big help putting together the club's prototype for the Jeopardy project.<pronoun> <linking-verb> <fact-about-self>.
